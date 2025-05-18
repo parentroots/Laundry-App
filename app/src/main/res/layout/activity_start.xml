@@ -13,7 +13,7 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Laundry And Dry Clean"
+        android:text="Keeo Fresh And Fine"
         android:textSize="30sp"
         android:textColor="#ffffff"
         android:textStyle="bold"
@@ -23,7 +23,7 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="300dp"
         app:lottie_rawRes="@raw/laundry_lottie"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
@@ -33,7 +33,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="500dp"
         android:layout_below="@id/animationView"
         app:cardCornerRadius="20dp"
         android:elevation="20dp"
@@ -66,8 +66,8 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/startAmimation"
-                android:layout_width="400dp"
-                android:layout_height="200dp"
+                android:layout_width="500dp"
+                android:layout_height="250dp"
                 app:lottie_rawRes="@raw/start_lottie"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"

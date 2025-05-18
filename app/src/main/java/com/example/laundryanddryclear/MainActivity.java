@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
                 if (Item==R.id.home){
                     loadFragment(new CategoryFragment());
+                } else if (Item==R.id.cart) {
+                    loadFragment(new OrderInvoiceFragment());
 
                 }
 
