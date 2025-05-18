@@ -5,28 +5,24 @@
     <item android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/home"
-        app:showAsAction="always"
+
 
         />
 
-    <item android:id="@+id/message"
-        android:title="Message"
-        android:icon="@drawable/messenger"
-        app:showAsAction="always"
+    <item android:id="@+id/cart"
+        android:title="Cart"
+        android:icon="@drawable/cart"
 
         />
 
     <item android:id="@+id/notification"
         android:title="Notification"
         android:icon="@drawable/bell"
-        app:showAsAction="always"
-
         />
 
     <item android:id="@+id/profile"
         android:title="Profile"
         android:icon="@drawable/user"
-        app:showAsAction="always"
 
         />
 

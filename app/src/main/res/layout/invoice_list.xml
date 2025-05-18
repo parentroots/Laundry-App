@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Order Details"
+                android:background="@drawable/button_bg"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/invoiceIdText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Invoice Id :"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/invoiceDateText"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Invoice Date :"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/numberText"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Number :"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Location :"
+                android:textSize="25sp"
+                />
+
+
+            <TextView
+                android:id="@+id/categoryText"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Category  :"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/quantityText"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Quantity :"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Price :"
+                android:textSize="25sp"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

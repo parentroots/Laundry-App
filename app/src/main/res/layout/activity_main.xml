@@ -14,10 +14,7 @@
         android:layout_height="?attr/actionBarSize"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_nav_menu"
-        android:background="#ffffff"
-        android:elevation="10dp"
-        android:clickable="true"
-        
+
         />
 
 
